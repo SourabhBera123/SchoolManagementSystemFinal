@@ -1,0 +1,508 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Teachers
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Teachers))
+        Label1 = New Label()
+        Panel2 = New Panel()
+        Button6 = New Button()
+        Button5 = New Button()
+        Button3 = New Button()
+        Button2 = New Button()
+        Button4 = New Button()
+        Button1 = New Button()
+        PictureBox1 = New PictureBox()
+        Panel1 = New Panel()
+        txtAddress = New TextBox()
+        Label9 = New Label()
+        btnDelete = New Button()
+        btnUpdate = New Button()
+        btnReset = New Button()
+        btnSave = New Button()
+        cmbDepartment = New ComboBox()
+        Label8 = New Label()
+        cmbGender = New ComboBox()
+        DGVTeacher = New DataGridView()
+        Label7 = New Label()
+        Label6 = New Label()
+        dtpDOB = New DateTimePicker()
+        txtMobile = New TextBox()
+        txtTeachername = New TextBox()
+        Label5 = New Label()
+        Label4 = New Label()
+        Label2 = New Label()
+        PictureBox2 = New PictureBox()
+        Label3 = New Label()
+        Label10 = New Label()
+        picTeacher = New PictureBox()
+        btnUpload = New Button()
+        Button7 = New Button()
+        Panel2.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
+        CType(DGVTeacher, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picTeacher, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Javanese Text", 26F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = SystemColors.ButtonHighlight
+        Label1.Location = New Point(174, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(483, 80)
+        Label1.TabIndex = 0
+        Label1.Text = "School Management System"
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = SystemColors.GradientInactiveCaption
+        Panel2.Controls.Add(Button6)
+        Panel2.Controls.Add(Button5)
+        Panel2.Controls.Add(Button3)
+        Panel2.Controls.Add(Button2)
+        Panel2.Controls.Add(Button4)
+        Panel2.Controls.Add(Button1)
+        Panel2.Controls.Add(PictureBox1)
+        Panel2.Dock = DockStyle.Left
+        Panel2.Location = New Point(0, 0)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(130, 559)
+        Panel2.TabIndex = 7
+        ' 
+        ' Button6
+        ' 
+        Button6.BackColor = Color.SeaGreen
+        Button6.Font = New Font("Javanese Text", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button6.Location = New Point(9, 490)
+        Button6.Name = "Button6"
+        Button6.Size = New Size(87, 36)
+        Button6.TabIndex = 8
+        Button6.Text = "Logout"
+        Button6.UseVisualStyleBackColor = False
+        ' 
+        ' Button5
+        ' 
+        Button5.BackColor = Color.SeaGreen
+        Button5.BackgroundImage = My.Resources.Resources.pngwing_com
+        Button5.BackgroundImageLayout = ImageLayout.Zoom
+        Button5.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button5.Location = New Point(9, 194)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(118, 43)
+        Button5.TabIndex = 11
+        Button5.Text = "Teachers"
+        Button5.UseVisualStyleBackColor = False
+        ' 
+        ' Button3
+        ' 
+        Button3.BackColor = Color.SeaGreen
+        Button3.BackgroundImage = My.Resources.Resources.department_1642357
+        Button3.BackgroundImageLayout = ImageLayout.Zoom
+        Button3.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button3.Location = New Point(9, 403)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(118, 43)
+        Button3.TabIndex = 9
+        Button3.Text = "Department"
+        Button3.UseVisualStyleBackColor = False
+        ' 
+        ' Button2
+        ' 
+        Button2.BackColor = Color.SeaGreen
+        Button2.BackgroundImage = My.Resources.Resources._10206manstudent_110643
+        Button2.BackgroundImageLayout = ImageLayout.Zoom
+        Button2.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button2.Location = New Point(9, 262)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(118, 43)
+        Button2.TabIndex = 8
+        Button2.Text = "Students"
+        Button2.UseVisualStyleBackColor = False
+        ' 
+        ' Button4
+        ' 
+        Button4.BackColor = Color.SeaGreen
+        Button4.BackgroundImage = My.Resources.Resources.pngwing_com_1
+        Button4.BackgroundImageLayout = ImageLayout.Zoom
+        Button4.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button4.Location = New Point(9, 330)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(118, 43)
+        Button4.TabIndex = 10
+        Button4.Text = "Fee Deposit"
+        Button4.UseVisualStyleBackColor = False
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.SeaGreen
+        Button1.BackgroundImage = My.Resources.Resources.ic_dashboard_128_28270
+        Button1.BackgroundImageLayout = ImageLayout.Zoom
+        Button1.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Location = New Point(9, 124)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(118, 43)
+        Button1.TabIndex = 7
+        Button1.Text = "Dashboard"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackColor = SystemColors.ControlText
+        PictureBox1.Image = My.Resources.Resources._3986707_building_education_school_school_icon_112987
+        PictureBox1.Location = New Point(3, 3)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(127, 77)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 6
+        PictureBox1.TabStop = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.DarkOrchid
+        Panel1.Controls.Add(Label1)
+        Panel1.Location = New Point(128, 0)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(809, 51)
+        Panel1.TabIndex = 6
+        ' 
+        ' txtAddress
+        ' 
+        txtAddress.Location = New Point(564, 189)
+        txtAddress.Multiline = True
+        txtAddress.Name = "txtAddress"
+        txtAddress.Size = New Size(153, 32)
+        txtAddress.TabIndex = 133
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(456, 194)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(71, 32)
+        Label9.TabIndex = 132
+        Label9.Text = "Address"
+        ' 
+        ' btnDelete
+        ' 
+        btnDelete.BackColor = Color.Red
+        btnDelete.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnDelete.Location = New Point(313, 239)
+        btnDelete.Name = "btnDelete"
+        btnDelete.Size = New Size(80, 33)
+        btnDelete.TabIndex = 131
+        btnDelete.Text = "Delete"
+        btnDelete.UseVisualStyleBackColor = False
+        ' 
+        ' btnUpdate
+        ' 
+        btnUpdate.BackColor = Color.Khaki
+        btnUpdate.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnUpdate.Location = New Point(576, 239)
+        btnUpdate.Name = "btnUpdate"
+        btnUpdate.Size = New Size(81, 33)
+        btnUpdate.TabIndex = 130
+        btnUpdate.Text = "Update"
+        btnUpdate.UseVisualStyleBackColor = False
+        ' 
+        ' btnReset
+        ' 
+        btnReset.BackColor = Color.Gold
+        btnReset.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnReset.Location = New Point(441, 239)
+        btnReset.Name = "btnReset"
+        btnReset.Size = New Size(75, 33)
+        btnReset.TabIndex = 129
+        btnReset.Text = "Reset"
+        btnReset.UseVisualStyleBackColor = False
+        ' 
+        ' btnSave
+        ' 
+        btnSave.BackColor = Color.LightGreen
+        btnSave.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnSave.Location = New Point(710, 239)
+        btnSave.Name = "btnSave"
+        btnSave.Size = New Size(75, 33)
+        btnSave.TabIndex = 128
+        btnSave.Text = "Save"
+        btnSave.UseVisualStyleBackColor = False
+        ' 
+        ' cmbDepartment
+        ' 
+        cmbDepartment.FormattingEnabled = True
+        cmbDepartment.Items.AddRange(New Object() {"Pre-Primary", "Maths", "Science", "Commerce", "Sports", "Music", "Litreature"})
+        cmbDepartment.Location = New Point(564, 148)
+        cmbDepartment.Name = "cmbDepartment"
+        cmbDepartment.Size = New Size(153, 23)
+        cmbDepartment.TabIndex = 127
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(456, 147)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(97, 32)
+        Label8.TabIndex = 126
+        Label8.Text = "Department"
+        ' 
+        ' cmbGender
+        ' 
+        cmbGender.FormattingEnabled = True
+        cmbGender.Items.AddRange(New Object() {"Male", "Female", "Other"})
+        cmbGender.Location = New Point(284, 156)
+        cmbGender.Name = "cmbGender"
+        cmbGender.Size = New Size(94, 23)
+        cmbGender.TabIndex = 125
+        cmbGender.Text = "Select Gender"
+        ' 
+        ' DGVTeacher
+        ' 
+        DGVTeacher.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        DGVTeacher.BorderStyle = BorderStyle.Fixed3D
+        DGVTeacher.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DGVTeacher.Location = New Point(161, 330)
+        DGVTeacher.Name = "DGVTeacher"
+        DGVTeacher.Size = New Size(751, 196)
+        DGVTeacher.TabIndex = 124
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.BackColor = SystemColors.ActiveCaptionText
+        Label7.Font = New Font("Javanese Text", 12F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        Label7.ForeColor = Color.White
+        Label7.Location = New Point(475, 291)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(128, 36)
+        Label7.TabIndex = 123
+        Label7.Text = "Teacher's List"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Location = New Point(456, 100)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(47, 32)
+        Label6.TabIndex = 122
+        Label6.Text = "DOB"
+        ' 
+        ' dtpDOB
+        ' 
+        dtpDOB.Location = New Point(564, 98)
+        dtpDOB.Name = "dtpDOB"
+        dtpDOB.Size = New Size(143, 23)
+        dtpDOB.TabIndex = 121
+        ' 
+        ' txtMobile
+        ' 
+        txtMobile.Location = New Point(275, 198)
+        txtMobile.Name = "txtMobile"
+        txtMobile.Size = New Size(153, 23)
+        txtMobile.TabIndex = 120
+        ' 
+        ' txtTeachername
+        ' 
+        txtTeachername.Location = New Point(284, 116)
+        txtTeachername.Multiline = True
+        txtTeachername.Name = "txtTeachername"
+        txtTeachername.Size = New Size(144, 23)
+        txtTeachername.TabIndex = 119
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Location = New Point(157, 197)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(90, 32)
+        Label5.TabIndex = 118
+        Label5.Text = "Mobile no."
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Location = New Point(153, 156)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(65, 32)
+        Label4.TabIndex = 117
+        Label4.Text = "Gender"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Javanese Text", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(153, 115)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(125, 32)
+        Label2.TabIndex = 116
+        Label2.Text = "Teacher's Name"
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Image = My.Resources.Resources._10218manteacher_1106721
+        PictureBox2.Location = New Point(142, 57)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(39, 32)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 135
+        PictureBox2.TabStop = False
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Javanese Text", 18F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(173, 54)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(123, 54)
+        Label3.TabIndex = 134
+        Label3.Text = "Teachers"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Javanese Text", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label10.Location = New Point(786, 85)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(102, 36)
+        Label10.TabIndex = 136
+        Label10.Text = "Upload Pic"
+        ' 
+        ' picTeacher
+        ' 
+        picTeacher.BorderStyle = BorderStyle.Fixed3D
+        picTeacher.Location = New Point(777, 124)
+        picTeacher.Name = "picTeacher"
+        picTeacher.Size = New Size(122, 79)
+        picTeacher.TabIndex = 137
+        picTeacher.TabStop = False
+        ' 
+        ' btnUpload
+        ' 
+        btnUpload.BackColor = Color.Silver
+        btnUpload.Font = New Font("Javanese Text", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnUpload.Location = New Point(810, 204)
+        btnUpload.Name = "btnUpload"
+        btnUpload.Size = New Size(66, 25)
+        btnUpload.TabIndex = 138
+        btnUpload.Text = "Upload"
+        btnUpload.UseVisualStyleBackColor = False
+        ' 
+        ' Button7
+        ' 
+        Button7.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
+        Button7.Font = New Font("Javanese Text", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button7.Location = New Point(810, 235)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(66, 25)
+        Button7.TabIndex = 139
+        Button7.Text = "Clear"
+        Button7.UseVisualStyleBackColor = False
+        ' 
+        ' Teachers
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = SystemColors.Info
+        ClientSize = New Size(937, 559)
+        Controls.Add(Button7)
+        Controls.Add(btnUpload)
+        Controls.Add(picTeacher)
+        Controls.Add(Label10)
+        Controls.Add(PictureBox2)
+        Controls.Add(Label3)
+        Controls.Add(txtAddress)
+        Controls.Add(Label9)
+        Controls.Add(btnDelete)
+        Controls.Add(btnUpdate)
+        Controls.Add(btnReset)
+        Controls.Add(btnSave)
+        Controls.Add(cmbDepartment)
+        Controls.Add(Label8)
+        Controls.Add(cmbGender)
+        Controls.Add(DGVTeacher)
+        Controls.Add(Label7)
+        Controls.Add(Label6)
+        Controls.Add(dtpDOB)
+        Controls.Add(txtMobile)
+        Controls.Add(txtTeachername)
+        Controls.Add(Label5)
+        Controls.Add(Label4)
+        Controls.Add(Label2)
+        Controls.Add(Panel2)
+        Controls.Add(Panel1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Name = "Teachers"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Teachers"
+        Panel2.ResumeLayout(False)
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
+        CType(DGVTeacher, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(picTeacher, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents txtAddress As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents btnDelete As Button
+    Friend WithEvents btnUpdate As Button
+    Friend WithEvents btnReset As Button
+    Friend WithEvents btnSave As Button
+    Friend WithEvents cmbDepartment As ComboBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents cmbGender As ComboBox
+    Friend WithEvents DGVTeacher As DataGridView
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents dtpDOB As DateTimePicker
+    Friend WithEvents txtMobile As TextBox
+    Friend WithEvents txtTeachername As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents picTeacher As PictureBox
+    Friend WithEvents btnUpload As Button
+    Friend WithEvents Button7 As Button
+End Class
